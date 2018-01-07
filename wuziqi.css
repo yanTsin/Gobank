@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+}
+
+div#playarea {
+	position: relative;
+	width: 850px;
+	height: 1000px;
+	margin: auto;
+	background: url("qipan.png") 
+	no-repeat center;
+}
+table {
+	position: absolute;
+	top: 118px;
+	left: 45px;
+	border-spacing: 1px;
+	/*border: 1px solid white;*/
+}
+
+td {
+	width: 37px;
+	height: 37px;
+	/*border: 1px solid white*/
+}
+
+.whiteChess {
+	background: url("baiqi.png") center center no-repeat;
+}
+
+.blackChess {
+	background: url("heiqi.png") center center no-repeat;
+}
